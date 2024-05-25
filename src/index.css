@@ -1,0 +1,37 @@
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Menu,
+.Quiz,
+.Endscreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Menu button,
+.Quiz button ,
+.Endscreen button{
+
+  margin-top: 10px;
+  width:200px ;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.options{
+  display: flex;
+  flex-direction: column;
+
+}
